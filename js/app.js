@@ -258,7 +258,7 @@ window.addEventListener("load", async () => {
         },
       ];
 
-      const contractAddress = "0xC062DA22F14d349F6DD222199AB165B6095B7cA3";
+      const contractAddress = "0x5FFFAc201E28a8e96a7711a19AC286FD34f36036";
 
       const contract = new web3.eth.Contract(abi, contractAddress);
 
@@ -277,7 +277,7 @@ window.addEventListener("load", async () => {
       const maxPurchase = web3.utils.fromWei(maxPurchaseWei, "ether");
       document.getElementById("maxPurchase").textContent = maxPurchase;
 
-      const tokenContractAddress = "0xC479434Ee5c6371385347DC3A78C8aBc74e2f803";
+      const tokenContractAddress = "0x76FD45813fBE660D45Db76cF9E64a781BDb6022c";
       const tokenContractAbi = [
         {
           inputs: [],
